@@ -1,0 +1,96 @@
+*{
+	font: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	}
+body{
+	background: #EEE9e9;
+	}
+a{
+	text-decoration: none;
+	color: #FFD700;
+	}
+#menu a:link,#menu a:visited{
+	color:#FFF;
+	}
+#menu a:hover{
+	color: #FFD700;
+	background: #FFF;
+	}
+#menu a:active{
+	color: black;
+	}
+h2{
+	color: #FFD700
+	}
+h3{
+	text-align: left;
+	font-size: 22px;
+	padding: 10px 0px;
+	color:#2F4F4F;
+	background:#CCC; 
+	}
+#menu{
+	background-color: #FFD700;
+	position: fixed;
+	top:0px;
+	left: 0px;
+	width: 100%;
+	height: 130px;
+	text-align: center;
+	margin: 0 relative;
+	padding-top: 40px;
+	z-index: 1
+	}
+#conteudo{
+	font-size: 18px;
+	position: relative;
+	top:180px;
+	width: 920px;
+	margin: auto;
+	z-index: 0;
+	}
+#postagens, #lateral, #contato{
+	background: #FFF;
+}
+#postagens{
+	width: 660px;
+	float: left;
+	}
+#rodape{
+	text-align: center;
+	clear: both;
+	background: #CCC;
+	padding: 10px;
+}
+#lateral{
+	width: 240px;
+	float: right;
+	}
+#contato{
+	width: 240px;
+	float: right;
+	margin-top: 20px;
+	}
+.estilo1{
+	font: 50px Arial, Helvetica, sans-serif;
+	color: #2F4F4F;
+	}
+.estilo2{
+	font: 50px Arial, Helvetica, sans-serif;
+	color: #FFF;
+	}
+.linkmenu{
+	font:20px Arial, Helvetica, sans-serif;
+	color: #FFF;
+	padding: 10px;
+	}
+.post{
+	padding: 20px;
+	}
+.data-post{
+	border-bottom: 1px solid #F4f4f4;
+	padding: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
